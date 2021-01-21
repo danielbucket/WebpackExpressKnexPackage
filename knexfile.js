@@ -1,9 +1,9 @@
 const path = require('path');
 
 module.exports = {
-  TEST: {
+  test: {
     client: 'pg',
-    connection: 'postgress://localhost/knexTutorial',
+    connection: 'postgress://localhost/WebpackExpressKnexPackage',
     useNullAsDefault: true,
     migrations: {
       directory: __dirname + './db/migrations',
@@ -14,8 +14,8 @@ module.exports = {
   },
 
   development: {
-    client: 'pg',
-    connection: 'postgres://localhost/stocktracker',
+    client: 'postgresql',
+    connection: 'postgres://localhost/tutorial',
     useNullAsDefault: true,
     migrations: {
       directory: path.resolve(__dirname, './db/migrations'),
@@ -37,4 +37,5 @@ module.exports = {
     seeds: {
       directory: path.resolve(__dirname + './db/seeds/production'),
     },
+  }
 };

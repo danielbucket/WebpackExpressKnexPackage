@@ -1,14 +1,13 @@
 {
-  "name": "knexTutorial",
+  "name": "WebpackExpressKnexPackage",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic Webpack bundled and Express rendered website with a Knex.js database.",
   "private": true,
   "dependencies": {
     "body-parser": "^1.19.0",
     "clean-webpack-plugin": "^3.0.0",
     "express": "^4.17.1",
     "jquery": "^3.5.1",
-    "knex": "^0.21.15",
     "lodash": "^4.17.20",
     "nodemon": "^2.0.7",
     "normalize.css": "^8.0.1",
@@ -29,6 +28,6 @@
     "start": "webpack serve --open",
     "server": "node ./server/server.js"
   },
-  "author": "",
+  "author": "Bucket Limited",
   "license": "ISC"
 }
